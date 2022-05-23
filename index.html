@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PI tour and travel agency website design</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+ <!-- swiper  -->
+<link
+rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+/>
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>Pi</span>Travel</a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#book">book</a>
+        <a href="#packages">packages</a>
+        <a href="#services">services</a>
+        <a href="#gallery">gallery</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- login form container  -->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have any account? <a href="#">register now</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+<section class="home" id="home">
+    <div class="container">
+        <h3>Life is either a daring adventure or nothing.</h3>
+        <p>I hope you see things that startle you & never felt before. you meet people with a different point of view.  If you find that you're not, I hope you have the strength to start all over again.</p>
+        <a href="#" class="btn">find more</a>
+    </div>
+    <div class="controls">
+        <span class="video-btn active" data-src="images/video1.mp4"></span>
+        <span class="video-btn"data-src ="images/video2.mp4"></span>
+        <span class="video-btn"data-src ="images/video3.mp4"></span>
+        <span class="video-btn"data-src ="images/video4.mp4"></span>
+    </div>
+    <div class="video-container">
+        <video src="images/video1.mp4" id="video-slide"loop autoplay muted></video>
+
+    </div>
+
+</section>
+<!-- book section starts  -->
+<section class="book" id="book">
+    <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+    <div class="row">
+        <div class="image">
+            <img src="images/booknow22.png" alt="">
+
+        </div>
+        <form action="">
+            <div class="inputbox">
+                <h3>where to</h3>
+                <input type="text" placeholder="place name">
+            </div>
+            <div class="inputbox">
+                <h3>how many</h3>
+                <input type="number" placeholder="number of person">
+            </div>
+            <div class="inputbox">
+                <h3>date of arrival</h3>
+                <input type="date" >
+            </div>
+            <div class="inputbox">
+                <h3>intended length of stay</h3>
+                <input type="date" >
+            </div>
+            <input type="submit" class="btn" value="book now">
+        </form>
+    </div>
+
+</section>
+<!-- package  section starts  -->
+<section class="package" id="package">
+    <h1 class="heading">
+        <span>P</span>
+        <span>A</span>
+        <span>C</span>
+        <span>K</span>
+        <span>A</span>
+        <span>G</span>
+        <span>E</span>
+    </h1>
+<div class="box-container">
+    <div class="box">
+        <img src="images/nph1.jpg" alt="">
+        <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i>Napal</h3>
+            <p>Nepalis a country of contrasts. Spectacular natural riches combine with a vibrant culture and sense of history. Home to ten of the world's 14 highest mountains, the country offers a magnificent setting for hiking and mountaineering, as well as some of the world's best white water rafting.</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <div class="price"> $100 <span>$130</span></div>
+            <a href="#" class="btn">book now</a>
+        </div>
+    </div>
+    
+    <div class="box">
+        <img src="images/fph2.jpg" alt="">
+        <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i>France</h3>
+            <p>France entices people of all ages with some of the world's most iconic landmarks, world-class art and architecture, sensational food, stunning beaches, glitzy ski resorts, beautiful countryside and a staggering amount of history.</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <div class="price"> $210 <span>$330</span></div>
+            <a href="#" class="btn">book now</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="images/g-2.jpg" alt="">
+        <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i>Germany</h3>
+            <p>Germany's multitude of regional identities offers a cornucopia of distinct experiences to meet all kinds of expectations and suit all possible tastes (even the most discriminating ones) - whatever it is you fancy: beautiful scenery, great architecture, lively festivals, glamorous events, exciting nightlife, delicious food and the best beer ever - Germany has it all and more</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <div class="price"> $250 <span>$630</span></div>
+            <a href="#" class="btn">book now</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="images/ch4.jpg" alt="">
+        <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i>Canada</h3>
+            <p>Canada has cosmopolitan cities that are clean, safe, friendly, and multicultural. In fact, Canada repeatedly is lauded as one of the world's most livable countries. Whether your interests are river rafting or live theater, Canada won't disappoint.</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <div class="price"> $400 <span>$530</span></div>
+            <a href="#" class="btn">book now</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="images/aph3.jpg" alt="">
+        <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i>america</h3>
+            <p>America is, to me, the perfect travel destination — it's easy to go between cities, the people are friendly and helpful, the food is amazing, and there's always something going on.</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <div class="price"> $1000 <span>$1200</span></div>
+            <a href="#" class="btn">book now</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="images/dph3.jpg" alt="">
+        <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i>Dubai</h3>
+            <p>Dubai is undoubtedly one of the most unique cities in the world. For those with an untreatable case of wanderlust, this city is a travelers dream. Dubai has historic sights, futuristic architecture, active night life and out-of-this-world attractions.</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <div class="price"> $1000 <span>$1500</span></div>
+            <a href="#" class="btn">book now</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="images/greek1.jpg" alt="">
+        <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i>Greek</h3>
+            <p>Beautiful places, hospitable people, stunning beaches, fantastic weather, unique flavors… there are a million reasons to visit Greece. The cradle of Western civilization is a wonderful destination all year round.</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <div class="price"> $400 <span>$600</span></div>
+            <a href="#" class="btn">book now</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="images/iph1.jpg" alt="">
+        <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i>India</h3>
+            <p>There are plenty of reasons to visit India - be it mountains or plains, beaches or backwaters, wildlife tours or adventure activities, secluded islands or bustling metropolitan, culinary delights or local drinks, spiritual holidays or romantic vacations.</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <div class="price"> $100 <span>$130</span></div>
+            <a href="#" class="btn">book now</a>
+        </div>
+    </div>
+
+
+
+</div>
+
+
+</section>
+<!-- service  section starts  -->
+<section class="service" id="service">
+    <h1 class="heading">
+        <span>S</span>
+        <span>E</span>
+        <span>R</span>
+        <span>V</span>
+        <span>I</span>
+        <span>C</span>
+        <span>E</span>
+        <span>S</span>
+    </h1>
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>HOTEL</h3>
+            <p><ol>Standalone concierge staff available at least 16 hours a day.
+                A high staff-to-room ratio—ideally above 2.5.24-hour reception, room service, valet parking, butler, doorman.Easy communication with hotel staff - even via text or app.Daily housekeeping that is also available upon request at any time.Laundry, ironing, dry cleaning, and shoe polishing.
+            </ol></p>
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>FOOD & DRINKS</h3>
+            <p>There are two key distinctions: commercial foodservice , which comprises operations whose primary business is food and beverage, and non-commercial foodservice establishments where food and beverages are served but are not the primary business.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-shield-alt"></i>
+            <h3>SECURITY</h3>
+            <p>Trained security guards working 24-hours every day to provide the best in safety and security for the guests.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>GUIDE</h3>
+            <p>A Tour Guide is important to plan your trips properly without any surprises about the new place. They are required because they help organize, manage and plan the whole trip for you so that you can just concentrate on enjoying the destination and leave everything else on them.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+            <h3>WORLDWIDE</h3>
+            <p>We are a Leading travel agency specialized in group travel all over world and the most exciting destinations in world. We are offering top services for all travel needs and the most different type of groups. We are sure that will inspire you to create your own and unique tour. We have two offices in Mumbai, where we are specialists in whatever doubt or change you might have during your trip, and we will attend to you as soon as possible.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>TRAVEL</h3>
+            <p>We do Air Ticketing and all Transportation Services.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>ADVENTURE</h3>
+            <p>Adventure travel is a type of tourism, involving exploration or travel with perceived (and possibly actual) risk, and potentially requiring specialized skills and physical exertion. Adventure tourism has grown in recent decades, as tourists seek different kinds of vacations, but measurement of market size and growth is hampered by the lack of a clear operational definition</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-briefcase-medical"></i>
+            <h3>MEDICAL TEAM</h3>
+            <p>we offer Medical team.The group of physicians and healthcare workers who are responsible for a patient's medical needs while the patient is in hospital and during a reasonable follow-up period</p>
+        </div>
+
+    </div>
+
+</section>
+<!-- service  section starts  -->
+<section class="gallery" id="gallery">
+    <h1 class="heading">
+        <span>G</span>
+        <span>A</span>
+        <span>L</span>
+        <span>L</span>
+        <span>E</span>
+        <span>R</span>
+        <span>Y</span>
+        
+    </h1>
+    <div class="box-cointer">
+        <div class="box">
+            <img src="images/nph2.jpg" alt="">
+            <div class="content">
+                <h3>amazing place</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, temporibus?</p>
+                <a href="#" class="btn">see more..</a>
+
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/fph4.jpg" alt="">
+            <div class="content">
+                <h3>amazing place</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, temporibus?</p>
+                <a href="#" class="btn">see more..</a>
+
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-8.jpg" alt="">
+            <div class="content">
+                <h3>amazing place</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, temporibus?</p>
+                <a href="#" class="btn">see more..</a>
+
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/cph3.jpg" alt="">
+            <div class="content">
+                <h3>amazing place</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, temporibus?</p>
+                <a href="#" class="btn">see more..</a>
+
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/aph4.jpg" alt="">
+            <div class="content">
+                <h3>amazing place</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, temporibus?</p>
+                <a href="#" class="btn">see more..</a>
+
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/dph2.jpg" alt="">
+            <div class="content">
+                <h3>amazing place</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, temporibus?</p>
+                <a href="#" class="btn">see more..</a>
+
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/greek1.jpg" alt="">
+            <div class="content">
+                <h3>amazing place</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, temporibus?</p>
+                <a href="#" class="btn">see more..</a>
+
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/iph5.jpg" alt="">
+            <div class="content">
+                <h3>amazing place</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, temporibus?</p>
+                <a href="#" class="btn">see more..</a>
+
+            </div>
+        </div>
+
+    </div>
+
+</section>
+<!-- review  section starts  -->
+<section class="review" id="review">
+    <h1 class="heading">
+        <span>R</span>
+        <span>E</span>
+        <span>v</span>
+        <span>I</span>
+        <span>E</span>
+        <span>W</span>    
+    </h1>
+    <div class="swiper-container review-slide">
+        <div class=" swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/review1.jpg" alt="">
+                    <h3>Johnny Depp</h3>
+                    <p>I had a great experience with this trip Our travel agent is so nice he arrange our trip according to our choices and the best part of our trip is our tour guide he was very wonderful human.
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/review4.jpg" alt="">
+                    <h3>kristen stewart</h3>
+                    <p>All over my trip are good and memorable experience with me Specially my travel agent so much helpful on my trip. Sikkim tour like Gangtok and pelling hotel's staying also cab service.All drinks drivers are helpful and honest.
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/review3.jpg" alt="">
+                    <h3> sharukh khan</h3>
+                    <p>It was an awesome trip planned through trip to hills and travel triangle. We enjoyed a lot except at nepal where the hotel didn't worth. Rest all was up to the mark and well organized.
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="swiper-slide">
+                
+                <div class="box">
+                    <img src="images/review2.jpg" alt="">
+                    <h3>shirley setia</h3>
+                    <p>I visited Canada in 5 days and 6 nights it was wonderful and enjoyable journey. Hotels were good and services were also good. 
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+<!-- contact  section starts  -->
+<section class="contact" id="contact">
+    <h1 class="heading">
+        <span>C</span>
+        <span>O</span>
+        <span>N</span>
+        <span>T</span>
+        <span>A</span>
+        <span>C</span> 
+        <span>T</span> 
+        <span class="space"></span>
+        <span>U</span>
+        <span>S</span>  
+    </h1>
+    <div class="row">
+        <div class="image">
+            <img src="images/contact.jpg" alt="">
+
+        </div>
+        <form action="">
+            <div class="inputbox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+                
+            </div>
+            <div class="inputbox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+                
+            </div>
+            <textarea placeholder="message" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send">
+        </form>
+
+    </div>
+
+
+</section>
+<!-- brand  section starts  -->
+<section class="brand-container" id="brand-container">
+    <h1 class="heading">
+        <span>P</span>
+        <span>A</span>
+        <span>R</span>
+        <span>T</span>
+        <span>N</span>
+        <span>E</span>  
+        <span>R</span>    
+    </h1>
+    <div class="swiper-container  brand-slide">
+        <div class=" swiper-wrapper">
+            <div class="swiper-slide"><img src="images/brand1.jpg" alt=""> </div>
+            <div class="swiper-slide"><img src="images/brand2.jpg" alt=""> </div>
+            <div class="swiper-slide"><img src="images/brand3.jpg" alt=""> </div>
+            <div class="swiper-slide"><img src="images/brand4.jpg" alt=""> </div>
+            <div class="swiper-slide"><img src="images/brand5jpg.jpg" alt=""> </div>
+            <div class="swiper-slide"><img src="images/brand6.jpg" alt=""> </div>
+            
+        </div>
+
+    </div>    
+
+</section>
+
+<!-- footer section start -->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>ABOUT US</h3>
+            <p>Did somebody press the fast-forward button? With August already in full swing, now's the time to book your last minute summer getaway before the fall rolls around. Fortunately, it's super easy to book a last minute vacation with the help of Wix Hotels' online booking system. We've compiled some of the best vacation spots to help give you that recharge you need. Can't get out of town?  Not to worry, we've included some local attractions and touring services that give stay-cation a whole new meaning.</p>
+
+        </div>
+        <div class="box">
+            <h3>Location</h3>
+            <a href="#">Bangladesh</a>
+            <a href="#">India</a>
+            <a href="#">Nepal</a>
+            <a href="#">Canada</a>
+            <a href="#">America</a>
+            <a href="#">Dubai</a>
+            <a href="#">Germany</a>
+        </div>
+        <div class="box">
+            <h3>Link</h3>
+            <a href="#">Home</a>
+            <a href="#">Book</a>
+            <a href="#">package</a>
+            <a href="#">Services</a>
+            <a href="#">Gallery</a>
+            <a href="#">Review</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="box">
+            <h3>Follow Us</h3>
+            <a href="#">Facebook</a>
+            <a href="#">Youtube</a>
+            <a href="#">Instagram</a>
+            <a href="#">Linkedin</a>
+            
+        </div>
+
+    </div>
+    <h1 class="credit">created by <span>Pi-Web designer</span> All rights Reserved!</h1>
+
+</section>
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
