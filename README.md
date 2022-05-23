@@ -1,4 +1,4 @@
 # travelAgency
 
 <h2>get website URL</h2>
-<a href="https://github.com/mushfiqurrahman5250/travelAgency.git">go to website</a>
+<a href="https://mushfiqurrahman5250.github.io/travelAgency/">go to website</a>
